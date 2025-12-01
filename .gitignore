@@ -4,10 +4,10 @@ apikey.json
 *.pem
 .env
 
-# Database Files
-sudoku_database
-sudoku_database_v2
-sudoku_database*
+# Database Files (excluding sudoku databases - they should be tracked)
+# sudoku_database
+# sudoku_database_v2
+# sudoku_database*
 *.db
 *.sqlite
 *.sqlite3
