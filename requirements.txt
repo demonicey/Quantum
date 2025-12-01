@@ -1,0 +1,25 @@
+# Quantum Computing Framework
+qiskit>=1.0.0
+qiskit-ibm-runtime>=0.20.0
+qiskit-aer>=0.13.0
+
+# Scientific Computing
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Cryptography
+pycryptodome>=3.19.0
+
+# Database
+# Note: sqlite3 is included in Python standard library
+
+# Jupyter Support (optional)
+jupyter>=1.0.0
+notebook>=7.0.0
+ipykernel>=6.25.0
+
+# Testing
+pytest>=7.4.0
+
+# Utilities
+python-dotenv>=1.0.0

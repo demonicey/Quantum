@@ -1,0 +1,88 @@
+# Sensitive Files - API Keys and Credentials
+apikey.json
+*.key
+*.pem
+.env
+
+# Database Files
+sudoku_database
+sudoku_database_v2
+sudoku_database*
+*.db
+*.sqlite
+*.sqlite3
+
+# Decrypted Output Files
+decrypted_locations.txt
+decrypted_sudoku.txt
+*decrypted*.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Test outputs
+test_output/
+results/
+
+# Microsoft Word temporary files
+~$*.docx
