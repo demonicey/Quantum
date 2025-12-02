@@ -17,6 +17,8 @@ A classical brute-force attack on a 128-bit AES key requires searching through *
 | Classical Brute-Force | ≈ 2^128 |
 | Quantum Search (Grover's) | ≈ 2^64 |
 
+![Quadratic Speedup Comparison](images/speedup_comparison.png)
+
 This represents a **quadratic speedup**, reducing the effective security of AES-128 from 128 bits to 64 bits against quantum attacks.
 
 ---
@@ -61,6 +63,8 @@ The Grover Oracle is a quantum circuit that identifies and marks the correct key
 U_AES: |K⟩|P⟩ → |K⟩|E_K(P)⟩
 ```
 
+![Reversible AES Circuit](images/reversible_aes.png)
+
 **B. Marking Function**
 
 - The oracle compares the resulting ciphertext **E_K(P)** with the target (known) ciphertext **C**
@@ -92,6 +96,8 @@ The core of the algorithm is the repeated application of the **Grover Iteration*
 G = D · U_f
 ```
 
+![Grover Operator](images/grover_operator.png)
+
 #### Number of Iterations
 
 The Grover operation **G** must be repeated approximately:
@@ -100,7 +106,9 @@ The Grover operation **G** must be repeated approximately:
 ⌊(π/4)√(2^128)⌋ ≈ 2^64 times
 ```
 
-#### Effect
+![Number of Iterations Formula](images/iterations_formula.png)
+
+#### Effectn
 
 Each iteration selectively amplifies the amplitude (and thus the probability) of the correct key state, moving probability mass away from the incorrect key states.
 
